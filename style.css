@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.main header {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    height: 60px;
+    background-color: #141618;
+}
+
+.main header .logo {
+    margin-left: 74px;
+}
+
+.main header .dropdown {
+    display: flex;
+    gap: 12px;
+}
+
+.main header .dropdown span {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.main header .dropdown i,
+.main header .dropdown span {
+    color: #d2d3d3;
+    transition: 0.1s;
+}
+
+.main header .dropdown i:hover {
+    color: #fff;
+}
+
+.main header .dropdown span:hover {
+    color: #fff;
+}
+
+.main .landing {
+    display: flex;
+    align-items: center;
+    height: 640px;
+    background: linear-gradient(170deg,#212A39 0%,#181E28 100%);
+}
+
+.main .landing img {
+    transition: ease-out 0.3s;
+    margin-left: 110px;
+}
+
+.main .landing img:hover {
+    transform: scale(1.05);
+}
+
+.main .landing .landing-description {
+    width: 590px;
+    height: 324px;
+    margin-left: 120px;
+}
+
+.main .landing .landing-description button {
+    width: 254px;
+    height: 48px;
+    color: #fff;
+    background-color: #316aff;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.main .landing .landing-description .description-text {
+    color: #fff;
+}
+
+.main .landing .landing-description .description-text span {
+    font-size: 48px;
+}
+
+.main .landing .landing-description .description-text p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #b0b6be;
+    margin: 10px 0 65px 0
+}
+
+.main .features {
+    height: 774px;
+    background-color: #F4F7F9;
+}
+
+.main .testimonial {
+    height: 467px;
+    background-color: #F4F7F9;
+}
+
+.main .brand {
+    height: 558px;
+    background-color: #F4F7F9;
+}
+
+footer {
+    height: 478px;
+    background-color: #000;
+}
