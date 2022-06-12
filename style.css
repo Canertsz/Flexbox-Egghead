@@ -12,6 +12,10 @@ html, body {
     -webkit-font-smoothing: antialiased;
 }
 
+a {
+    color: inherit;
+}
+
 .main header {
     display: flex;
     align-items: center;
@@ -96,8 +100,74 @@ html, body {
 }
 
 .main .features {
+    display: flex;
     height: 774px;
     background-color: #F4F7F9;
+}
+
+.main .features .box-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 392px;
+    height: 624px;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-left: 72px;
+}
+
+.main .features .box-container .box {
+    width: 184px;
+    height: 184px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    transition: 200ms;
+}
+
+.main .features .box-container .box span {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.main .features .box-container .box img {
+    width: 40px;
+    height: 40px;
+}
+
+.main .features .box-container .box:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.main .features .features-description {
+    width: 500px;
+    height: 402px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    line-height: 28px;
+    align-self: center;
+    margin-left: 160px;
+    margin-top: 100px;
+}
+
+.main .features .features-description span {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.main .features .features-description div {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.main .features .features-description p {
+    font-size: 18px;
+    font-weight: 300;
 }
 
 .main .testimonial {
@@ -105,7 +175,7 @@ html, body {
     background-color: #F4F7F9;
 }
 
-.main .brand {
+.main .proposition {
     height: 558px;
     background-color: #F4F7F9;
 }
