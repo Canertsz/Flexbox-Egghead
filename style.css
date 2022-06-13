@@ -82,6 +82,11 @@ a {
     border-radius: 5px;
     letter-spacing: 1px;
     cursor: pointer;
+    transition: ease-out 0.2s;
+}
+
+.main .landing .landing-description button:hover {
+    transform: scale(1.1);
 }
 
 .main .landing .landing-description .description-text {
@@ -171,13 +176,98 @@ a {
 }
 
 .main .testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 467px;
     background-color: #F4F7F9;
 }
 
+.main .testimonial .testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1276px;
+    height: 362px;
+    background-color: #fff;
+}
+
+.main .testimonial .testimonial-container .quote {
+    width: 56px;
+    height: 56px;
+    margin-top: 50px;
+}
+
+.main .testimonial .testimonial-container span {
+    width: 700px;
+    height: 72px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+
+.main .testimonial .testimonial-container .author {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.main .testimonial .testimonial-container .author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.main .testimonial .testimonial-container .author p {
+    color: #4c4c4c;
+}
+
 .main .proposition {
+    display: flex;
+    justify-content: center;
     height: 558px;
     background-color: #F4F7F9;
+}
+
+.main .proposition .proposition-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    width: 558px;
+    height: 558px;
+}
+
+.main .proposition .proposition-description .proposition-title {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.main .proposition .proposition-description .proposition-text {
+    font-size: 18px;
+    line-height: 28px;
+    color: #36393b;
+}
+
+.main .proposition .proposition-description button {
+    width: 270px;
+    height: 48px;
+    color: #fff;
+    background-color: #36845a;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: ease-out 0.2s;
+}
+
+.main .proposition .proposition-img {
+    display: flex;
+    align-items: flex-end;
+    width: 558px;
+    height: 558px;
 }
 
 footer {
