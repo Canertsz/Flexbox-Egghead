@@ -4,6 +4,7 @@
     text-decoration: none;
     border: none;
     box-sizing: border-box;
+    list-style: none;
 }
 
 html, body {
@@ -272,5 +273,124 @@ a {
 
 footer {
     height: 478px;
-    background-color: #000;
+    background-color: #141618;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 75px;
+    width: 100%;
+    height: 350px;
+}
+
+footer .container .links {
+    width: 220px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+footer .container .links .navigation {
+    display: flex;
+    gap: 35px;
+    margin-top: 15px;
+}
+
+footer .container .links .navigation .link-section-left,
+footer .container .links .navigation .link-section-right {
+    margin-top: 15px;
+}
+
+footer .container .links .navigation .link-section-left span,
+footer .container .links .navigation .link-section-right span {
+    color: #ffffffcc;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: .1em;
+    font-weight: 600;
+}
+
+footer .container .links .navigation .link-section-left ul li,
+footer .container .links .navigation .link-section-right ul li {
+    color: #ffffff80;
+    margin-top: 15px;
+    transition: 300ms;
+}
+
+footer .container .links .navigation .link-section-left ul li:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+footer .container .links .navigation .link-section-right ul li:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+footer .container .search-field {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .container .search-field span {
+    color: #fff;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400px;
+}
+
+footer .container .search-field .form {
+    display: flex;
+    margin-top: 20px;
+}
+
+footer .container .search-field .form input {
+    width: 373px;
+    height: 48px;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    background-color: #21252d;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+footer .container .search-field .form input:focus-within {
+    outline: none;
+}
+
+footer .container .search-field .form button {
+    width: 52px;
+    height: 48px;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    background-color: #3161ff;
+}
+
+footer .container .search-field .form button i {
+    color: #fff;
+    padding-top: 4px;
+}
+
+footer .brand .line {
+    width: 1276px;
+    height: 1px;
+    background-color: #1f1f1f;
+    margin-left: calc(50% - 638px);
+    margin-top: 20px;
+}
+
+footer .brand .terms {
+    display: flex;
+    color: #fff;
+    gap: 25px;
+    margin: 30px 0px 0px 75px;
+}
+
+footer .brand .terms span {
+    font-size: 14px;
+    color: #f4f7f9;
+    opacity: 0.4;
 }
