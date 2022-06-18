@@ -394,3 +394,97 @@ footer .brand .terms span {
     color: #f4f7f9;
     opacity: 0.4;
 }
+
+/** tablets **/
+
+@media screen and (max-width: 768px) {
+
+    .main header .logo {
+        margin-left: 24px;
+    }
+
+    .main .landing {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 535px;
+    }
+
+    .main .landing img {
+        display: none;
+    }
+
+    .main .landing .landing-description {
+        margin-left: 0;
+    }
+
+    .main .features {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main .features .features-description {
+        width: 604px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        line-height: 30px;
+        margin: 20px 0 0 0;
+    }
+
+    .main .features .box-container {
+        display: inline-flex;
+        flex-wrap: wrap;
+        width: 592px;
+        height: 624px;
+        column-gap: 20px;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+
+    .main .testimonial .testimonial-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 1276px;
+        height: 310px;
+        background-color: #fff;
+        margin: 50px;
+    }
+
+    .main .proposition {
+        display: flex;
+        height: 558px;
+        background-color: #F4F7F9;
+    }
+
+    .main .proposition .proposition-description {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main .proposition .proposition-img {
+        display: none;
+    }
+
+    footer .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 350px;
+        padding-left : 30px;
+        padding-right: 30px;
+    }
+    
+}
+
+/** phones **/
+
+@media screen and (max-width: 520px) {
+     
+}
